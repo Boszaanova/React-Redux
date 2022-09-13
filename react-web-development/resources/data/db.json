@@ -1,0 +1,181 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "G1",
+      "unitPrice": 120,
+      "thumbnail": "/images/product/1.jpg"
+    },
+    {
+      "id": 2,
+      "productName": "G2",
+      "unitPrice": 120,
+      "thumbnail": "/images/product/2.jpg"
+    },
+    {
+      "id": 3,
+      "productName": "G3",
+      "unitPrice": 120,
+      "thumbnail": "/images/product/3.jpg"
+    },
+    {
+      "id": 4,
+      "productName": "G4",
+      "unitPrice": 120,
+      "thumbnail": "/images/product/4.jpg"
+    },
+    {
+      "id": 5,
+      "productName": "G5",
+      "unitPrice": 120,
+      "thumbnail": "/images/product/5.jpg"
+    },
+    {
+      "id": 6,
+      "productName": "G6",
+      "unitPrice": 120,
+      "thumbnail": "/images/product/6.jpg"
+    },
+    {
+      "id": 7,
+      "productName": "G7",
+      "unitPrice": 120,
+      "thumbnail": "/images/product/7.jpg"
+    },
+    {
+      "id": 8,
+      "productName": "G8",
+      "unitPrice": 120,
+      "thumbnail": "/images/product/8.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "orderedDate": "2022-08-10T15:22:26.108Z",
+      "totalPrice": 2160,
+      "orders": [
+        {
+          "product": {
+            "id": 4,
+            "productName": "G4",
+            "unitPrice": 120,
+            "thumbnail": "/images/product/4.jpg"
+          },
+          "quantity": 3
+        },
+        {
+          "product": {
+            "id": 3,
+            "productName": "G3",
+            "unitPrice": 120,
+            "thumbnail": "/images/product/3.jpg"
+          },
+          "quantity": 5
+        },
+        {
+          "product": {
+            "id": 2,
+            "productName": "G2",
+            "unitPrice": 120,
+            "thumbnail": "/images/product/2.jpg"
+          },
+          "quantity": 3
+        },
+        {
+          "product": {
+            "id": 1,
+            "productName": "G1",
+            "unitPrice": 120,
+            "thumbnail": "/images/product/1.jpg"
+          },
+          "quantity": 7
+        }
+      ],
+      "id": 1
+    },
+    {
+      "orderedDate": "2022-08-23T09:41:55.829Z",
+      "totalPrice": 1200,
+      "orders": [
+        {
+          "product": {
+            "id": 4,
+            "productName": "G4",
+            "unitPrice": 120,
+            "thumbnail": "/images/product/4.jpg"
+          },
+          "quantity": 6
+        },
+        {
+          "product": {
+            "id": 3,
+            "productName": "G3",
+            "unitPrice": 120,
+            "thumbnail": "/images/product/3.jpg"
+          },
+          "quantity": 4
+        }
+      ],
+      "id": 2
+    },
+    {
+      "orderedDate": "2022-09-13T07:31:23.531Z",
+      "totalPrice": 480,
+      "orders": [
+        {
+          "product": {
+            "id": 4,
+            "productName": "G4",
+            "unitPrice": 120,
+            "thumbnail": "/images/product/4.jpg"
+          },
+          "quantity": 4
+        }
+      ],
+      "id": 3
+    },
+    {
+      "orderedDate": "2022-09-13T07:32:10.330Z",
+      "totalPrice": 480,
+      "orders": [
+        {
+          "product": {
+            "id": 4,
+            "productName": "G4",
+            "unitPrice": 120,
+            "thumbnail": "/images/product/4.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 3,
+            "productName": "G3",
+            "unitPrice": 120,
+            "thumbnail": "/images/product/3.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 7,
+            "productName": "G7",
+            "unitPrice": 120,
+            "thumbnail": "/images/product/7.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 8,
+            "productName": "G8",
+            "unitPrice": 120,
+            "thumbnail": "/images/product/8.jpg"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 4
+    }
+  ]
+}
