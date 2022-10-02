@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import ProductList from "../../components/product/ProductList";
-import { withRouter } from "react-router-dom";
+
 import { connect } from "react-redux";
 import { productsFetch, productDelete } from "../../actions";
  
@@ -60,4 +60,4 @@ function mapStateToProps({products }) {
     return {products};
 }
 
-export default withRouter (connect(mapStateToProps, {productsFetch, productDelete} )(Product));
+export default  (connect(mapStateToProps, {productsFetch, productDelete} )(Product));
