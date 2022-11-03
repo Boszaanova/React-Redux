@@ -23,7 +23,7 @@ constructor(props) {
       <div className='bg-dark text-light'>
         <Header />
         <Monitor products={this.props.products} />
-        <Footer company="JK47" email="boszaanova@gmail.com" />
+        <Footer company="AOS" email="boszaanova@gmail.com" />
       </div>
     );
   }

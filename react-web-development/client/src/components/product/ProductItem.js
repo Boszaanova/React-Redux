@@ -15,7 +15,7 @@ class ProductItem extends Component {
             <div className="col-md-3 col-sm-6 mt-2">
                 <img className="img-fluid img-thumbnail" src={thumbnail} />
                 <h5 className="title mt-2">{productName}</h5>
-                <p className="text-end title">{unitPrice} THB</p>
+                <p className="text-end title">Price : {unitPrice} THB</p>
 
                 {this.props.onAddOrder && 
                 <button className="btn btn-secondary title w-100" onClick={() => this.props.onAddOrder(this.props.product)} >Buy</button>

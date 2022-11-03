@@ -5,9 +5,9 @@ const Footer = (props) => {
     return (
         <div className="container-fluid">
             <hr />
-            <div className="text-center title  bg-secondary py-2">
+            <div className="text-center title  bg-primary py-2">
                 <small>
-                <span className="text-warning">Powered By {company} </span>| <span className="text-light">Contact By Email : {email} </span>
+                <span className=" h6">Powered By {company} </span>| <span className="text-light">Contact By Email : {email} </span>
                 </small>
             </div>
         </div>

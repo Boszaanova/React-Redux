@@ -4,6 +4,7 @@ import ProductList from "../product/ProductList";
 import axios from "axios";
 
 
+
 class Monitor extends Component {
 constructor(props) {
      super(props);
@@ -64,11 +65,11 @@ constructor(props) {
 
                 <div className="row mt-5 bg-1"> 
                     <div className="col-md-9">
-                        <h5 className="border text-center border-secondary rounded py-2">GAME LIST</h5>
+                        <h5 className="border text-center border-secondary rounded py-2">Game List</h5>
                         <ProductList products={this.props.products} onAddOrder={this.addOrder} />
                     </div>
                     <div className="col-md-3">
-                    <h5 className="text-center border border-secondary rounded py-2">TOTAL</h5>
+                    <h5 className="text-center border border-secondary rounded py-2">สินค้าในตะกร้า</h5>
                         <Calculator totalPrice={this.state.totalPrice} orders={this.state.orders} onDelOrder={this.delOrder} onConfirmOrder={this.confirmOrder  } onCancleOrder={this.cancleOrder} />
                     </div>
 

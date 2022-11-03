@@ -9,9 +9,9 @@ class Calculator extends Component {
         } else {
             return orders.map(order => {
                 return (
-                <li className="text-end title h6">
+                <li className="text-end title fs-6">
                 {order.product.productName} x {order.quantity} = {order.product.unitPrice * order.quantity}
-                <button className="btn btn-warning btn-sm mx-1" onClick={() => this.props.onDelOrder(order.product)}>X</button>
+                <button className="btn btn-warning btn-sm mx-3" onClick={() => this.props.onDelOrder(order.product)}>X</button>
             </li> 
                 ) 
             })
@@ -25,7 +25,7 @@ class Calculator extends Component {
 
         return(
             <div className="mt-5">
-                <h2 className="text-end">{totalPrice} THB</h2>
+                <h2 className="text-end">Total {totalPrice} THB</h2>
                 <hr />
                 <ul className="list-unstyled">
                 {this.showOrders(orders)}

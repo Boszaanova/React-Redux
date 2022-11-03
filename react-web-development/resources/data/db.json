@@ -2,49 +2,49 @@
   "products": [
     {
       "id": 1,
-      "productName": "G1",
+      "productName": "Havest Moon",
       "unitPrice": 120,
       "thumbnail": "/images/product/1.jpg"
     },
     {
       "id": 2,
-      "productName": "G2",
+      "productName": "Tarzan",
       "unitPrice": 120,
       "thumbnail": "/images/product/2.jpg"
     },
     {
       "id": 3,
-      "productName": "G3",
+      "productName": "Bomberman World",
       "unitPrice": 120,
       "thumbnail": "/images/product/3.jpg"
     },
     {
       "id": 4,
-      "productName": "G4",
+      "productName": "Tenchu 2",
       "unitPrice": 120,
       "thumbnail": "/images/product/4.jpg"
     },
     {
       "id": 5,
-      "productName": "G5",
+      "productName": "Dragonball Z",
       "unitPrice": 120,
       "thumbnail": "/images/product/5.jpg"
     },
     {
       "id": 6,
-      "productName": "G6",
+      "productName": "Dragon Warrior VII",
       "unitPrice": 120,
       "thumbnail": "/images/product/6.jpg"
     },
     {
       "id": 7,
-      "productName": "G7",
+      "productName": "Clash Bash",
       "unitPrice": 120,
       "thumbnail": "/images/product/7.jpg"
     },
     {
       "id": 8,
-      "productName": "G8",
+      "productName": "Harry Potter",
       "unitPrice": 120,
       "thumbnail": "/images/product/8.jpg"
     }
