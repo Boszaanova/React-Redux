@@ -9,10 +9,10 @@ class ProductEdit extends Component {
         return (
             <div>
                 <Header />
-                <div className="container col-md-5">
+                <div>
                    
-                   <h1>5555</h1>
-                    {/* <ProductForm /> */}
+                   
+                    <ProductForm />
                 </div>
                 <Footer />
             </div>

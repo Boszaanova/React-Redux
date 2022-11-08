@@ -49,22 +49,5 @@
       "thumbnail": "/images/product/8.jpg"
     }
   ],
-  "orders": [
-    {
-      "orderedDate": "2022-11-06T10:57:20.411Z",
-      "totalPrice": 1200,
-      "orders": [
-        {
-          "product": {
-            "id": 4,
-            "productName": "Tenchu 2",
-            "unitPrice": 120,
-            "thumbnail": "/images/product/4.jpg"
-          },
-          "quantity": 10
-        }
-      ],
-      "id": 1
-    }
-  ]
+  "orders": []
 }
